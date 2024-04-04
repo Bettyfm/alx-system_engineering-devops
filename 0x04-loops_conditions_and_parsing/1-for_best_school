@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#script to print a str 10 times
+str="Best School";
+i=10;
+for i < 10;
+do
+echo "$str";
+i++;
+done
