@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#until loop on a str in bash
+str="Best School"
+i=0
+
+until [ $i -eq 10 ]
+do
+	echo "$str"
+	((i ++))
+done
