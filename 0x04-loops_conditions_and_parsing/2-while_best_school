@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#script to print str using a while loop
+
+str="Best School"
+i=0
+
+while [ $i -lt 10 ]
+do
+	echo "$str"
+	i=$((i + 1))
+done
