@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 #script for ls
 
-ls | cut -d "-" -f 2
+cnt=$(ls)
+for i in $cnt
+do
+	echo "$i" | cut -d "-" -f2
+done
