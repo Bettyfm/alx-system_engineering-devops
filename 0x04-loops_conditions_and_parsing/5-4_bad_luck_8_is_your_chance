@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#script to print a str using loop and if elif else
+str="Best School"
+str4="bad luck"
+str8="good luck"
+i=1
+while [ $i -le 10 ]
+do
+if [ $i -eq 4 ]
+then
+	echo "$str4"
+elif [ $i -eq 8 ]
+then
+	echo "$str8"
+else
+	echo "$str"
+fi
+	((i++))
+done
+
